@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+}
+
+.users-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.add-btn {
+  cursor: pointer;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background-color: rgb(28, 104, 139);
+  color: #f9f9f9;
+  box-shadow: 2px 2px 9px 9px rgba(0, 0, 0, 0.212);
+  border-radius: 50%;
+  padding: 1rem;
+  transition: 0.3s ease-in-out;
+  opacity: 0.8;
+}
+
+.add-btn:hover {
+  opacity: 1;
+  transform: rotate(180deg);
+  font-size: 1.2em;
+}
+
+.add-edit-form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
+.add-edit-form > input {
+  outline: 0;
+  margin: 0 0 10px 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.246);
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 10px;
+}
